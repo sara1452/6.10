@@ -7,52 +7,58 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Mini Art Museum</h1>
-      <nav>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="artists.html">Artists</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="visit.html">Visit &amp; Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section>
-        <img src="img/logo.svg" alt="Mini Art Museum logo" width="120" />
-        <h2>Welcome to the Mini Art Museum</h2>
-        <p id="welcome-text">
-          Discover masterpieces by some of the greatest painters in history.
-          Meet the artists, explore the gallery and plan your visit.
-        </p>
-      </section>
-
-      <section>
-        <h2>Explore the Museum</h2>
-        <ul>
-          <li>
-            <a href="artists.html">Artists</a> - meet Vincent van Gogh, Claude
-            Monet and Rembrandt.
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a> - browse famous paintings from
-            our collection.
-          </li>
-          <li>
-            <a href="visit.html">Visit &amp; Contact</a> - hours, location and
-            contact info.
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <ul class="footer-list">
-        <li id="museum-location">Sokolov 8 Be'er Sheva</li>
-        <li id="footer-museum-hours">8:00-20:00</li>
+   <header>
+    <h1>art Museum</h1>
+    <nav id="nav-museum">
+      <a href="artists.html">artists</a>
+      <a href="gallery.html">gallery</a>
+      <a href="visit.html">visit</a>
+    </nav>
+   </header>
+     <main>
+   <section id="image">
+    <img src="img/logo.svg" alt="Museum">
+    <p id="welcome-text">
+  Welcome to the Grand Heritage Museum, where centuries of artistic brilliant expression and cultural history come alive. Explore our breathtaking collections, discover masterworks by world-renowned artists, and immerse yourself in an unforgettable journey through human creativity and innovation.
+</p>
+   </section>
+   <section id="preview" class="page-previews">
+  <h2 class="artist-title">Explore Our Museum</h2>
+  <article id="artist">
+    <h3>Meet Our Artists</h3>
+    <p>Discover the masters behind our iconic collections.</p>
+    <a href="artists.html">View Artists &rarr;</a>
+  </article> 
+  <article>
+    <h3>Art Gallery</h3>
+    <p>Browse our extensive collection of historic artwork.</p>
+    <a href="gallery.html">Explore Gallery &rarr;</a>
+  </article> 
+  <article>
+    <h3>Plan Your Visit</h3>
+    <p>Find opening hours, location details, and directions.</p>
+    <a href="visit.html">Visitor Info &rarr;</a>
+  </article>
+</section>
+</main>
+   <footer>
+  <div class="footer-container">
+    <section id="hours" class="footer-hours">
+      <h3>Opening Hours</h3>
+      <ul>
+        <li><time datetime="su-Th 10:00-18:00">Mon - Thu: 10:00 AM - 6:00 PM</time></li>
+        <li><time datetime="Fr 10:00-14:00">Friday: 10:00 AM - 2:00 PM</time></li>
+        <li><time datetime="Sa 10:00-20:00">Saturday: 10:00 AM - 8:00 PM</time></li>
+        <li>Saturday: Closed</li>
       </ul>
-    </footer>
+    </section>
+    <section class="footer-location">
+      <h3>Location</h3>
+      <p>123 Museum israel</p>
+      <a href="visit.html#map">View Map & Directions &rarr;</a>
+    </section>
+  </div>
+  <p class="copyright">&copy; 2026 Grand Heritage Museum. All rights reserved.</p>
+   </footer>
   </body>
 </html>
